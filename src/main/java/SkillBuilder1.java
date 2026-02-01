@@ -9,11 +9,15 @@ import java.util.Scanner;
 public class SkillBuilder1 {
     public static void main(String[] args) {
         Scanner input = new Scanner(System.in);
-        //TODO : Replace this comment with your code
+        System.out.println("Whats your name?");
+        String name = input.nextLine();
     }
 
     public static void calcWallPaint() {
         Scanner input = new Scanner(System.in);
+        System.out.println("Enter a floating-point number:");
+        int number = input.nextInt();
+
 
         final double squareFeetPerGallons = 350.0;
         final double gallonsPerCan = 1.0;
